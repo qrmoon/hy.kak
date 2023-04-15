@@ -104,8 +104,8 @@ evaluate-commands %sh{
                 UnboundLocalError UnicodeDecodeError UnicodeEncodeError UnicodeError \
                 UnicodeTranslateError UnicodeWarning UserWarning ValueError Warning \
                 ZeroDivisionError"
-    keywords="and as assert async await break chainc class cond continue cut def defclass del dfor \
-              do elif else eval-and-compile eval-when-compile except exec finally for get gfor \
+    keywords="and as assert async await break chainc class cond continue cut def defclass defn del \
+              dfor do elif else eval-and-compile eval-when-compile except exec finally for get gfor \
               global if in is lambda let lfor match nonlocal not not? not-in or pass print py \
               pys quasiquote quote raise require return setv setx sfor try unpack-iterable \
               unpack-mapping unquote unquote-splice while with with/a yield yield-from"

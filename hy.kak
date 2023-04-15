@@ -56,8 +56,8 @@ add-highlighter shared/hy/comment region ";"  "$" fill comment
 
 # Numeric literals
 add-highlighter shared/hy/code/ regex "[+-]?(0[oxb])?[0-9_,]+j?" 0:value
-add-highlighter shared/hy/code/ regex "[+-]?(0[oxb])?[0-9_,]*\.[0-9]*j?" 0:value
-# add-highlighter shared/hy/code/ regex "(NaN|Inf|\-Inf)" 0:value
+add-highlighter shared/hy/code/ regex "[+-]?(0[oxb])?[0-9_,]+\.[0-9]*j?" 0:value
+add-highlighter shared/hy/code/ regex "[+-]?\.[0-9]+j?" 0:value
 
 add-highlighter shared/hy/code/ regex %{:[^()\[\]{};"'`~\s]*} 0:keyword
 
